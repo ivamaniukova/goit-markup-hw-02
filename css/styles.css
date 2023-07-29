@@ -58,9 +58,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-menu link:hover,
-.nav-menu link:focus {
-  color: #404bbf;
+.nav-menu:hover, .nav-menu:focus {
+    color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -74,7 +73,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.reference:hover & :focus {
+.reference:hover, .reference:focus {
     color: #404bbf;
 }
 .hero-title {
@@ -119,12 +118,6 @@ body {
 }
 .list {
   list-style: none;
-}
-.list:first-child:hover {
-    color: #404bbf;
-}
-.list:first-child:focus {
-    color: #404bbf;
 }
 .link {
   text-decoration: none;
