@@ -2,6 +2,7 @@
   --ftr-bg: #2e2f42;
   --light: #ffffff;
   --navy-blue: #2e2f42;
+  --blue: #4d5ae5;
 }
 * {
   font-family: "Montserrat", sans-serif;
@@ -141,8 +142,8 @@ body {
 .filter-btn {
   border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
-  color: #ffffff;
-  font-family: Roboto;
+  color: var(--blue);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
