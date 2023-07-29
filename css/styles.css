@@ -9,8 +9,8 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   background-color: var(--light);
   color: #434455;
 }
@@ -36,6 +36,17 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.footer {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 .nav-menu {
   color: var(--navy-blue);
   font-family: Roboto;
@@ -47,10 +58,10 @@ body {
 }
 .nav-menu:hover,
 .nav-menu:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 .reference {
   color: #434455;
@@ -86,8 +97,8 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
-    cursor: pointer;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 .top {
   color: #2e2f42;
@@ -95,17 +106,19 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.4px;
 }
 .advantages-list {
-    list-style: none;
+  list-style: none;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .subtitle {
   color: #2e2f42;
@@ -126,7 +139,6 @@ body {
   letter-spacing: 0.32px;
 }
 .filter-btn {
-  border-radius: 4px;
   border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
   color: #ffffff;
@@ -139,9 +151,7 @@ body {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  border-radius: 4px;
   background-color: #404bbf;
-  box-shadow: 0px 2px 2px 0px;
   color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
