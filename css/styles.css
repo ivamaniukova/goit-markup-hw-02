@@ -26,7 +26,7 @@ body {
   text-decoration: none;
 }
 .studio {
-  color: var(navy-blue);
+  color: var(--navy-blue);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -45,11 +45,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-menu .link:hover,
-.nav-menu .link:focus {
+.nav-menu:hover,
+.nav-menu:focus {
     color: #404bbf;
 }
-address {
+.address {
     font-style: normal;
 }
 .reference {
@@ -69,6 +69,7 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 .hero-section {
   width: 1440px;
@@ -91,7 +92,7 @@ address {
 .top {
   color: #2e2f42;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
