@@ -74,6 +74,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.reference:hover & :focus {
+    color: #404bbf;
+}
 .hero-title {
   color: #ffffff;
   font-family: Roboto;
@@ -85,8 +88,6 @@ body {
   text-align: center;
 }
 .hero-section {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
 }
 .hero-btn {
@@ -111,13 +112,19 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .advantages-list {
   list-style: none;
 }
 .list {
   list-style: none;
+}
+.list:first-child:hover {
+    color: #404bbf;
+}
+.list:first-child:focus {
+    color: #404bbf;
 }
 .link {
   text-decoration: none;
@@ -184,4 +191,7 @@ body {
 .light-bg {
   background-color: var(--whitish);
 
+}
+.list-bg {
+    background-color: #FFFFFF;
 }
