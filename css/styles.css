@@ -1,13 +1,16 @@
 :root {
   --ftr-bg: #2e2f42;
   --light: #ffffff;
+  --navy-blue: #2e2f42;
 }
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-.main {
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
   background-color: var(--light);
   color: #434455;
 }
@@ -22,7 +25,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.web .span {
+.studio {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -34,13 +37,20 @@
   text-decoration: none;
 }
 .nav-menu {
-  color: #2e2f42;
+  color: var(--navy-blue);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
 }
 .reference {
   color: #434455;
@@ -57,7 +67,7 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .hero-section {
@@ -68,9 +78,15 @@
 .hero-btn {
   color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .top {
   color: #2e2f42;
@@ -87,9 +103,11 @@
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 .subtitle {
   color: #2e2f42;
-  text-align: center;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -111,7 +129,6 @@
   border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
   color: #ffffff;
-  text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -124,7 +141,6 @@
   background-color: #404bbf;
   box-shadow: 0px 2px 2px 0px;
   color: #ffffff;
-  text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
