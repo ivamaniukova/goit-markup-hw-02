@@ -3,6 +3,7 @@
   --light: #ffffff;
   --navy-blue: #2e2f42;
   --blue: #4d5ae5;
+  --whitish: #F4F4FD;
 }
 * {
   font-family: "Montserrat", sans-serif;
@@ -139,6 +140,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.footer-text {
+    color: var(--whitish);
+}
 .filter-btn {
   border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
@@ -172,7 +176,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.64px;
 }
-.footer {
+.ftr {
   background-color: var(--ftr-bg);
 }
 .light-bg {
