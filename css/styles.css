@@ -58,8 +58,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-menu:hover,
-.nav-menu:focus {
+.nav-menu link:hover,
+.nav-menu link:focus {
   color: #404bbf;
 }
 .address {
@@ -129,7 +129,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .text {
   color: #434455;
@@ -142,6 +142,8 @@ body {
 }
 .footer-text {
     color: var(--whitish);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .filter-btn {
   border: 1px solid #e7e9fc;
@@ -180,5 +182,6 @@ body {
   background-color: var(--ftr-bg);
 }
 .light-bg {
-  background-color: var(--light);
+  background-color: var(--whitish);
+
 }
