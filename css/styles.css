@@ -1,27 +1,33 @@
+:root {
+    --ftr-bg: #2e2f42;
+
+}
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 .web {
-  color: #2e2f42;
+ color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .web span {
-  color: #4d5ae5;
-  font-family: Raleway;
+   color: #2e2f42;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .nav-menu {
   color: #2e2f42;
@@ -115,6 +121,7 @@ letter-spacing: 0.64px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .filter-item {
   color: var(--iris, #4d5ae5);
@@ -125,4 +132,7 @@ letter-spacing: 0.64px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+}
+.footer {
+    background-color: var(--ftr-bg);
 }
