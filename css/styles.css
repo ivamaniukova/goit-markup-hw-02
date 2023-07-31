@@ -160,6 +160,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -170,7 +171,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 .filter-item {
   color: var(--iris, #4d5ae5);
