@@ -88,6 +88,7 @@ body {
 }
 .hero-btn {
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -151,6 +152,7 @@ body {
 }
 .filter-btn {
   border: 1px solid #e7e9fc;
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
   color: var(--blue);
   font-size: 16px;
