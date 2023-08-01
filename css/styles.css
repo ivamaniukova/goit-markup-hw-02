@@ -54,13 +54,15 @@ body {
 .reference:focus {
   color: #404bbf;
 }
+.address {
+    font-style: normal;
+}
 .hero-title {
   color: var(--light);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   width: 496px;
 }
 .hero-section {
@@ -68,6 +70,7 @@ body {
 }
 .hero-btn {
   color: var(--light);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,7 +87,6 @@ body {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
 }
@@ -124,6 +126,7 @@ body {
 }
 .filter-btn {
   border: 1px solid #e7e9fc;
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
   color: var(--blue);
   font-size: 16px;
