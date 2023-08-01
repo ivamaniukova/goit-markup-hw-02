@@ -55,7 +55,7 @@ body {
   color: #404bbf;
 }
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 .hero-title {
   color: var(--light);
@@ -63,7 +63,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  text-align: center;
 }
 .hero-section {
   background-color: var(--ftr-bg);
